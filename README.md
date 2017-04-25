@@ -1,6 +1,6 @@
 # npmtest-hyperlinks
 
-#### test coverage for  [hyperlinks (v0.5.0)](https://github.com/zeit/hyperlinks#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperlinks.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperlinks) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperlinks.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperlinks)
+#### basic test coverage for  [hyperlinks (v0.5.0)](https://github.com/zeit/hyperlinks#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperlinks.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperlinks) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperlinks.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperlinks)
 
 #### Extension for Hyper that automatically links URLs
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-hyperlinks/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-hyperlinks/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-hyperlinks/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-hyperlinks/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperlinks/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperlinks/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-hyperlinks/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-hyperlinks/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperlinks/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperlinks/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-hyperlinks/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-hyperlinks/build/coverage.html/index.html)
 
@@ -76,7 +76,8 @@
         "url": "git+https://github.com/zeit/hyperlinks.git"
     },
     "scripts": {},
-    "version": "0.5.0"
+    "version": "0.5.0",
+    "bin": {}
 }
 ```
 
